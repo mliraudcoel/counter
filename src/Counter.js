@@ -10,7 +10,6 @@ function Counter() {
     <div>
       <input 
       type= "number"
-      value= {count}
       onChange= {(event) => {
         let valueNb = parseInt(event.target.value);
         setCount(valueNb);
@@ -29,3 +28,5 @@ function Counter() {
 }
 
 export default Counter;
+
+
